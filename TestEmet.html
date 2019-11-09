@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test web</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>   
+    <p id="date"></p>
+    <button type="button" onclick="alert('cập nhật thành công'), date()">click</button> 
+    <script>
+        
+         function date()
+         {
+            document.getElementById('date').style.color = "yellow";
+            document.getElementById('date').innerHTML = Date();
+         }
+    </script>
+    <form action="" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 + 
+        =
+        <output name="x" for="a b"></output>
+        <input type="submit">       
+    </form>
+    
+</body>
+</html>
